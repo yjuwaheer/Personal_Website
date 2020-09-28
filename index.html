@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Icon image-->
+    <link rel="icon" href="elements/logo.png">
+    <title>Yudish Juwaheer</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="pt-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light p-4">
+            <a class="navbar-brand" href="#">
+                <h3><img src="elements/logotransparent.png" alt="logo" width="45" height="45"> Yudish Juwaheer</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold" href="#about">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold" href="#project">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="about" class="container mt-5 pt-5 pb-3">
+        <div class="row m-auto p-auto">
+            <div class="col-sm-md-6 m-auto p-auto">
+                <div class="image-container">
+                    <!--
+                    <img class="image-main" src="elements/overlay.png" alt="wallpaperphone">
+                    <img class="image-overlay" src="elements/story.gif" alt="me">
+                    -->
+                    <img class="img-fluid pb-3" src="elements/storyfinal.gif" alt="me" alt="">
+                </div>
+            </div>
+            <div class="col-sm-md-6 m-auto p-auto text-center">
+                <div class="card border-info m-auto p-auto" style="width: 22rem;">
+                    <div class="card-body m-auto p-auto">
+                        <h2 class="card-title">HELLO</h2>
+                        <p class="card-text text-justify">
+                            My name is Yudish. I am a student at Memorial University of Newfoundland; currently majoring in Computer Science and doing a minor in Mathematics. I am very passionate about programming and constantly improving my skills by learning new technologies.
+                        </p>
+                        <a href="elements/UpdatedResume.pdf" class="btn btn-info">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section about skills and technologies-->
+    <section>
+        <div class="skill-container">
+            <div class="row p-4 border-top border-danger m-auto p-auto">
+                <div class="col-sm-md-6 m-auto p-auto d-flex flex-column">
+                    <p><img src="icons/html.svg" alt=""> HTML 5</p>
+                    <p><img src="icons/css.svg" alt=""> CSS 3</p>
+                    <p><img src="icons/bootstrap.svg" alt=""> BOOTSTRAP 4</p>
+                    <p><img src="icons/javascript.svg" alt=""> JAVASCRIPT</p>
+                </div>
+                <div class="col-sm-md-6 m-auto p-auto d-flex flex-column">
+                    <p><img src="icons/python.svg" alt=""> PYTHON</p>
+                    <p><img src="icons/git.svg" alt=""> GIT</p>
+                    <p><img src="icons/linux.svg" alt=""> LINUX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="project-container">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col">
+                        <div class="card p-auto m-auto" style="width: 20rem;">
+                            <img class="card-img-top" src="project/portfolio.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Portfolio</h5>
+                                <p class="card-text">
+                                    My personal web portfolio. Contains some of my projects.
+                                </p>
+                                <a href="" target="_blank">
+                                    <img class="icons" src="icons/github.svg" alt="github">
+                                </a>
+                                <a href="index.html">
+                                    <img class="icons" src="icons/website.svg" alt="github">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-auto m-auto" style="width: 20rem;">
+                            <img class="card-img-top" src="project/mmss.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">MUN Mauritian Society</h5>
+                                <p class="card-text">
+                                    A website created for a society and currently being maintained by me.
+                                </p>
+                                <a href="https://github.com/yjuwaheer/Mauritian_Society_Website" target="_blank">
+                                    <img class="icons" src="icons/github.svg" alt="github">
+                                </a>
+                                <a href="https://mauritiansociety.netlify.app/" target="_blank">
+                                    <img class="icons" src="icons/website.svg" alt="github">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-auto m-auto" style="width: 20rem;">
+                            <img class="card-img-top" src="project/ricochetrobots.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Ricochet Robots</h5>
+                                <p class="card-text">
+                                    A board game about Ricochet Robots created in Java using Swing.
+                                </p>
+                                <a href="https://github.com/yjuwaheer/comp2005-winter20-group6" target="_blank">
+                                    <img class="icons" src="icons/github.svg" alt="github">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light" id="contact">
+        <div class="row m-auto p-auto">
+            <div class="row m-auto p-auto">
+                <div class="col-sm-md-6 m-auto p-auto">
+                <div class="container py-4">
+                    <h1 class="text-center">CONTACT</h1>
+                    <div class="contact-content">
+                        <h4>Email:
+                            <a href="mailto: yjuwaheer@mun.ca">yjuwaheer@mun.ca</a>
+                        </h4>
+                        <div class="contact-icon">
+                            <a href="https://github.com/yjuwaheer/" target="_blank">
+                                <img class="icons" src="icons/github-contact.svg" alt="github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-md-6 m-auto p-auto">
+                <img class="qr-code" src="elements/qrcodemail.png" alt="QRcode">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <p>Made with <img class="icons" src="icons/love.svg" alt="strengthlove"> by 
+                    <strong>Yudish</strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
