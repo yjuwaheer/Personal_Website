@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-header {
+    background-color: #f2d974;
+    padding-bottom: 1rem;
+}
+
+.hello {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: 'Concert One', cursive;
+}
+
+.videos {
+    background-color: #534e52;
+}
+
+.video-header {
+    text-align: left;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.5rem;
+    padding-left: 10%;
+    margin: 10px 0px;
+    color: #c7956d;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+  }
+
+.videoWrapper iframe {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 3px #965d62 solid;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    height: 190px;
+    background-color: #c7956d;
+    justify-content: center;
+}
+
+lottie-player {
+    transform: rotate(-40deg);
+}
+
+.contact {
+    padding: 40px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+a {
+    font-family: 'Dosis', sans-serif;
+    color: #534e52;
+}
+
+a:hover {
+    color: #2e2c2d;
+}
