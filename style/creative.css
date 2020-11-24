@@ -83,3 +83,11 @@ a {
 a:hover {
     color: #2e2c2d;
 }
+
+.icon {
+    margin-right: 5px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
