@@ -33,11 +33,6 @@ nav .navbar-nav li a:hover{
 }
 */
 
-.img-fluid {
-    max-width: 25%;
-    height: auto;
-}
-
 .skill-container {
     display: flex !important;
     align-items: center !important;
